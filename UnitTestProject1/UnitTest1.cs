@@ -23,8 +23,8 @@ namespace UnitTestProject1
             driver.Navigate().GoToUrl("https://www.instagram.com/");
 
             Thread.Sleep(2000);
-            driver.FindElement(By.XPath("//*[@id=\"react-root\"]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input")).SendKeys("wasdoska@gmail.com");
-            driver.FindElement(By.XPath("//*[@id=\"react-root\"]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input")).SendKeys("wasd3206");
+            driver.FindElement(By.XPath("//*[@id=\"react-root\"]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input")).SendKeys("KULLANICIADI");
+            driver.FindElement(By.XPath("//*[@id=\"react-root\"]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input")).SendKeys("ŞİFRE");
             driver.FindElement(By.XPath("//*[@id=\"react-root\"]/section/main/article/div[2]/div[1]/div/form/div[4]/button/div")).Click();
             Thread.Sleep(3000);
             driver.FindElement(By.XPath("/html/body/div[4]/div/div/div[3]/button[2]")).Click();
